@@ -45,7 +45,7 @@ async def product_by_category(db: Annotated[Session, Depends(get_db)], category_
     requested_categories = db.scalars(select(Category.id).where(Category.parent_id == main_category.id)).all()
     requested_categories.append(main_category.id)
     print(f'requested_categories {requested_categories}')
-    requestetd_products = db.scalars(select(Product).where(Product.is_active == True, Product.stock > 0).filter(Product.category_id.in_(requested_categories))).all()
+    requestetd_products = db.scalars(select(Product).where(Product.is_active == True, Product.stock > 0, Product.category_id.in_(requested_categories))).all()
     print(f'requestetd_products {requestetd_products}')
     return {
         'requestetd_products': requestetd_products
