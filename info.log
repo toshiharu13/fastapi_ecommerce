@@ -1,0 +1,10 @@
+Log: [10b59f63-8911-46fd-9608-78ca04c356ff:2024-05-29T11:47:43.099916+0300 - INFO - Successfully accessed /docs 
+Log: [b98f043c-844a-4b52-b7bb-9ccd1b102cd0:2024-05-29T11:47:45.424250+0300 - INFO - Successfully accessed /openapi.json 
+Log: [5041f577-3175-4386-a78d-e906fc0ff545:2024-05-29T11:47:57.033299+0300 - INFO - Successfully accessed / 
+Log: [95b9351b-bc5c-4c83-8f1b-dc5ef3c94426:2024-05-29T11:49:54.560638+0300 - WARNING - Request to /dkkkkkkk failed 
+Log: [1300b674-3fb1-49cd-9680-4d1ec9ddb0ea:2024-06-07T11:18:37.430675+0000 - INFO - Successfully accessed / 
+Log: [273cbf1a-ca42-4f7e-9be5-aeaf7f0e907c:2024-06-07T11:18:37.541471+0000 - WARNING - Request to /favicon.ico failed 
+Log: [391fb5a0-6f09-4e4b-bc9a-38a4a0417f56:2024-06-10T09:49:00.606296+0000 - INFO - Successfully accessed /docs/ 
+Log: [0c7dadfd-81fc-4961-a75e-ec976b438e9f:2024-06-10T09:49:00.617997+0000 - INFO - Successfully accessed /docs 
+Log: [4ae61146-2878-487a-b1b3-6270e8775048:2024-06-10T09:49:01.883536+0000 - INFO - Successfully accessed /openapi.json 
+Log: [c122a155-4c09-4959-8f75-5b5b3b4e5308:2024-06-10T09:49:30.094015+0000 - INFO - Successfully accessed /category/all_categories 
